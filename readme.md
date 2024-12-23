@@ -44,20 +44,38 @@ project/
 └── .secrets
 ```
 
-## 🔍 Conclusion Technique
+## 🗺️ Visualisation Interactive
 
-### ✅ Points Forts
-1. **Architecture Robuste** 🏗 :
-   - Séparation claire des couches
-   - Utilisation de retry patterns
-   - Gestion efficace des erreurs
+Découvrez notre carte interactive des destinations françaises :
 
-2. **Visualisation Interactive** 📊 :
-   - Interface utilisateur intuitive
-   - Différenciation visuelle claire
-   - Popups informatifs
+[![Carte des Destinations](https://raw.githubusercontent.com/rom1legrand/MLE-B1-CollectAndManage-Plan-your_trip_Booking/main/carte_preview.png)](https://rom1legrand.github.io/MLE-B1-CollectAndManage-Plan-your_trip_Booking/)
 
-### 🔄 Axes d'Amélioration
+[Voir la carte en plein écran](https://rom1legrand.github.io/MLE-B1-CollectAndManage-Plan-your_trip_Booking/)
+
+## 🚀 Déploiement sur GitHub Pages
+
+Pour déployer la carte sur GitHub Pages :
+
+1. Créez une branche gh-pages :
+```bash
+git checkout -b gh-pages
+```
+
+2. Ajoutez les fichiers nécessaires :
+```bash
+git add index.html carte_hotels.html
+git commit -m "Add map page"
+git push origin gh-pages
+```
+
+3. Configurez GitHub Pages :
+   - Dans votre repository, allez dans Settings > Pages
+   - Source : Sélectionnez la branche "gh-pages"
+   - Save
+
+La carte sera accessible à l'adresse : `https://[votre-username].github.io/[nom-repo]/`
+
+## 🔄 Axes d'Amélioration
 1. **Performance** ⚡ :
    - Optimiser les requêtes SQL
    - Ajouter de la pagination
