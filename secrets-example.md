@@ -1,0 +1,13 @@
+# .secrets.example
+# AWS Credentials
+AWS_ACCESS_KEY_ID=votre_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=votre_aws_secret_access_key
+
+# API Keys
+OPENWEATHER_API_KEY=votre_openweather_api_key
+
+# Database
+NEON_DATABASE_URL=postgres://user:password@host:port/database
+
+# Ne jamais commiter le fichier .secrets réel
+# Copiez ce fichier vers .secrets et remplissez vos valeurs
