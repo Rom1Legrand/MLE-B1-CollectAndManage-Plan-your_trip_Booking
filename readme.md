@@ -48,8 +48,6 @@ project/
 
 Découvrez notre carte interactive des destinations françaises :
 
-[![Carte des Destinations](https://raw.githubusercontent.com/rom1legrand/MLE-B1-CollectAndManage-Plan-your_trip_Booking/main/carte_preview.png)](https://rom1legrand.github.io/MLE-B1-CollectAndManage-Plan-your_trip_Booking/)
-
 [Voir la carte en plein écran](https://rom1legrand.github.io/MLE-B1-CollectAndManage-Plan-your_trip_Booking/)
 
 ## 🚀 Déploiement sur GitHub Pages
