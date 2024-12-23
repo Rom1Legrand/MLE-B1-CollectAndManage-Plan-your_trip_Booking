@@ -39,7 +39,7 @@ project/
 │   └── hotels.json
 ├── carte_hotels.html
 ├── Kayak.ipynb
-├── requirements.txt
+├── index.html
 ├── .env
 └── .secrets
 ```
