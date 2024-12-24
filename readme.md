@@ -33,26 +33,26 @@ Configurer les variables d'environnement (voir `.env.example` et `.secrets.examp
 project/
 │
 ├── src/
+│   ├── projet_instruction.ipynb
 │   ├── coordonnees_villes.csv
 │   ├── hotels.csv
 │   ├── previsions_meteo.csv
 │   └── hotels.json
 ├── carte_hotels.html
+├── .gitignore
 ├── Kayak.ipynb
-├── requirements.txt
+├── readme.md
 ├── .env
 └── .secrets
 ```
 
 ## 🗺️ Visualisation Interactive
 
-Découvrez notre carte interactive des destinations françaises :
-
-[![Carte des Destinations](https://raw.githubusercontent.com/rom1legrand/MLE-B1-CollectAndManage-Plan-your_trip_Booking/main/carte_preview.png)](https://rom1legrand.github.io/MLE-B1-CollectAndManage-Plan-your_trip_Booking/)
+Découvrez notre carte interactive des 5 meilleurs destinations françaises (villes les plus chaudes dans les 5 prochains jours !) :
 
 [Voir la carte en plein écran](https://rom1legrand.github.io/MLE-B1-CollectAndManage-Plan-your_trip_Booking/)
 
-## 🚀 Déploiement sur GitHub Pages
+## 🚀 Déploiement de la carte interactive sur GitHub Pages
 
 Pour déployer la carte sur GitHub Pages :
 
@@ -77,41 +77,16 @@ La carte sera accessible à l'adresse : `https://[votre-username].github.io/[nom
 
 ## 🔄 Axes d'Amélioration
 1. **Performance** ⚡ :
-   - Optimiser les requêtes SQL
    - Ajouter de la pagination
    - Code python moins verbeux
+   - Amélioration du Scraping (parfois défaillant sur les noms d'hôtels)
 
 2. **Maintenance** 🔧 :
-   - Ajouter des tests
+   - Ajouter des tests et retry (gestion des coupures "connect" avec bdd)
    - Documentation complète
 
 3. **Évolutivité** 📈 :
    - Containerisation Docker
-   - CI/CD
-   - Architecture microservices
-   - API moins limité pour plus de possibiltité
-
-## 💼 Recommandations Business
-
-### 🎯 Opportunités Immédiates
-1. **Personnalisation** 👤 :
-   - Préférences utilisateurs
-   - Filtres avancés
-   - Packages combinés
-
-2. **Expansion** 🌍 :
-   - Autres pays européens
-   - Critères additionnels
-   - Intégration des avis
-
-3. **Monétisation** 💰 :
-   - Partenariats premium
-   - Réservation directe
-   - Offres personnalisées
-
-### 📊 KPIs Suggérés
-- Taux de conversion 📈
-- Temps de session ⏰
-- Destinations consultées 🏖
-- Taux de retour 🔄
-- Score NPS 📋
+   - Automatisation et CI/CD
+   - Monitoring
+   - API moins limité pour plus de possibilités
