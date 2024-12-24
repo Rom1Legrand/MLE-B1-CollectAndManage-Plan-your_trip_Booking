@@ -42,6 +42,7 @@ project/
 ├── .gitignore
 ├── Kayak.ipynb
 ├── readme.md
+├── index.html
 ├── .env
 └── .secrets
 ```
