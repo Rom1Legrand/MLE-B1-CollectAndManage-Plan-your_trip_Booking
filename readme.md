@@ -76,18 +76,3 @@ git push origin gh-pages
 
 La carte sera accessible à l'adresse : `https://[votre-username].github.io/[nom-repo]/`
 
-## 🔄 Axes d'Amélioration
-1. **Performance** ⚡ :
-   - Ajouter de la pagination
-   - Code python moins verbeux
-   - Amélioration du Scraping (parfois défaillant sur les noms d'hôtels)
-
-2. **Maintenance** 🔧 :
-   - Ajouter des tests et retry (gestion des coupures "connect" avec bdd)
-   - Documentation complète
-
-3. **Évolutivité** 📈 :
-   - Containerisation Docker
-   - Automatisation et CI/CD
-   - Monitoring
-   - API moins limité pour plus de possibilités
